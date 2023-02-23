@@ -3,8 +3,12 @@
  * @author JMB
  * @author LC
  */
-class HelloJava {
-	public afficherCancan(){
+public class HelloJava {
+	public static void afficherCancan(){
+		System.out.println("test");
+	}
 
+	public static void main(String[] argv){
+		afficherCancan();
 	}
 }
